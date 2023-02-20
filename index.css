@@ -82,12 +82,16 @@ span {
 
 h1 {
   font-family: "Italianno", cursive;
+  margin-top: 3em;
 }
 .divider {
   width: 10em;
   height: 0.03em;
   background-color: rgba(0, 0, 0, 0.349);
   margin: 2em auto;
+}
+.card-body {
+  box-shadow: 1em 1em 4em rgba(0, 0, 0, 0.15);
 }
 
 /* about us / video */
@@ -115,6 +119,7 @@ h1 {
   justify-content: center;
   align-items: center;
   transition: ease-in-out 0.5s;
+  margin-bottom: 6em;
 }
 .icon-background:hover {
   background-color: #0c0c0c1f;
@@ -145,10 +150,6 @@ h1 {
 }
 
 /* team */
-
-/* .card-body{
-      box-shadow: 1em 1em 4em rgba(0, 0, 0, 0.15);
-} */
 
 .team-img {
   width: 5.5em;
@@ -226,5 +227,3 @@ a {
 .footer .bi:hover {
   color: black;
 }
-
-/* göra lit mer md-4 xs-3 xl-5 etc i samma...visa ja kan mer */
