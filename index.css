@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Italianno&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+
+/* body */
+body {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+/* navbar */
+span {
+  color: #05aed0;
+}
+.navbar {
+  box-shadow: 0px 2px 19px 2px;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+  color: grey;
+}
+.navbar .nav-link {
+  color: black;
+}
+/* home/hero*/
+.home-header {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.section-home {
+  background-image: url(/Images/landingpage.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 10em;
+  padding-top: 10em;
+  position: relative;
+  z-index: 1;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+}
+.overlay {
+  position: absolute;
+  top: 0em;
+  left: 0em;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(23, 30, 31, 0.8464440952162114) 32%,
+    rgba(8, 149, 177, 1) 40%,
+    rgba(5, 174, 208, 1) 51%,
+    rgba(0, 212, 255, 1) 62%
+  );
+  z-index: -1;
+}
+
+.btn {
+  border: 0.05em solid black;
+  background-color: #05aed0;
+  border-radius: 7em;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  color: white;
+}
+.btn:hover {
+  background-color: white;
+  color: #05aed0;
+}
+
+/* services */
+.section-services h1,
+.section-features h1,
+.section-team h1,
+.section-blog h1 {
+  color: #05aed0;
+}
+
+h1 {
+  font-family: "Italianno", cursive;
+}
+.divider {
+  width: 10em;
+  height: 0.03em;
+  background-color: rgba(0, 0, 0, 0.349);
+  margin: 2em auto;
+}
+
+/* about us / video */
+.section-about {
+  background-image: url(/Images/videosection-pic.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+  z-index: 1;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+}
+
+.icon-background {
+  width: 3.5em;
+  height: 3.5em;
+  background-color: white;
+  border-radius: 50%;
+  border: 0.05em solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: ease-in-out 0.5s;
+}
+.icon-background:hover {
+  background-color: #0c0c0c1f;
+  color: white;
+}
+/* features */
+.features-icon .bi {
+  font-size: 2em;
+  color: #05aed0;
+}
+
+/* counter */
+.section-counter {
+  background-image: url(/Images/countersection-pic.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  background-attachment: fixed;
+  color: white;
+}
+.counter-icon .bi {
+  font-size: 2em;
+}
+
+/* team */
+
+/* .card-body{
+      box-shadow: 1em 1em 4em rgba(0, 0, 0, 0.15);
+} */
+
+.team-img {
+  width: 5.5em;
+  height: 5.5em;
+  align-self: center;
+  border: 0.1em solid #05aed0;
+}
+.section-team .bi {
+  font-size: 1.2em;
+  color: black;
+  cursor: pointer;
+}
+.section-team .bi:hover {
+  color: #05aed0;
+}
+
+.section-team .card {
+  box-shadow: 1em 1em 4em rgba(0, 0, 0, 0.15);
+}
+
+/* blog */
+a {
+  text-decoration: none;
+  color: #05aed0;
+}
+
+/* contact */
+.section-contact {
+  background-image: url(/Images/contactsection-pic.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 6em;
+  color: white;
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+.form-control {
+  background: transparent;
+  color: white;
+}
+.form-control:focus {
+  color: white;
+  background-color: transparent;
+}
+
+.form-control::placeholder {
+  color: white;
+}
+.btn--form {
+  width: 7em;
+  padding: 0.5em;
+}
+/* footer */
+.footer {
+  background: linear-gradient(
+    90deg,
+    rgba(23, 30, 31, 0.8464440952162114) 2%,
+    rgba(2, 0, 36, 1) 49%,
+    rgba(8, 149, 177, 1) 100%,
+    rgba(5, 174, 208, 0.3310379327512255) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  color: white;
+}
+
+.footer .bi {
+  font-size: 1em;
+  margin: 0em 0.2em;
+  cursor: pointer;
+}
+
+.footer .bi:hover {
+  color: black;
+}
+
+/* göra lit mer md-4 xs-3 xl-5 etc i samma...visa ja kan mer */

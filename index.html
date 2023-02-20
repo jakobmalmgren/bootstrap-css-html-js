@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- Navbar-section start -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg bg-body-tertiary"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">JAMA<span>.</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar-section end -->
+
+    <!-- Home/hero-section start -->
+    <section id="home" class="section-home">
+      <div class="overlay"></div>
+      <div
+        class="container text-center"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <div class="row">
+          <div class="col-12">
+            <h1 class="display-4 home-header">
+              JAMA<span>.</span> Fullstack Development Bootcamp
+            </h1>
+          </div>
+        </div>
+        <div class="row row justify-content-center">
+          <div class="col-md-6">
+            <p class="fs-4 fw-lighter fst-italic">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
+              deleniti aliquam fugit aperiam, natus non.
+            </p>
+          </div>
+        </div>
+        <button class="btn">Get Started</button>
+      </div>
+    </section>
+    <!-- Home/hero-section end -->
+
+    <!-- Services section start  -->
+    <section id="services" class="section-services">
+      <div class="container text-center">
+        <div class="row mb-4" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-md-6 offset-md-3">
+            <h1 class="display-5 mt-5">Our services</h1>
+            <div class="divider"></div>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
+              aperiam odio, quisquam excepturi saepe provident quibusdam
+              dignissimos ab eligendi blanditiis?
+            </p>
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-duration="1000 ">
+          <div class="col-12">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <div class="col">
+                <div class="card h-100 card-services">
+                  <img
+                    src="/Images/ourservice-pic3.avif"
+                    class="card-img-top"
+                    alt="back-end"
+                  />
+
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Backend Design</h5>
+                    <small>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Alias reiciendis consectetur dolorum excepturi quidem sint
+                      dolorem obcaecati exercitationem, pariatur consequuntur
+                      eos praesentium ipsa corrupti harum mollitia quos suscipit
+                      vel molestiae..</small
+                    >
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 5 mins ago</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 card-services">
+                  <img
+                    src="/Images/ourservice-pic2.avif"
+                    class="card-img-top"
+                    alt="front-end"
+                  />
+
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Frontend Design</h5>
+                    <small>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Alias reiciendis consectetur dolorum excepturi quidem sint
+                      dolorem obcaecati exercitationem, pariatur consequuntur
+                      eos praesentium ipsa corrupti harum mollitia quos suscipit
+                      vel molestiae..</small
+                    >
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 12 mins ago</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card h-100 card-services">
+                  <img
+                    src="/Images/ourservice-pic1.avif"
+                    class="card-img-top"
+                    alt="UX/UI"
+                  />
+
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">UX/UI Design</h5>
+                    <small>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Alias reiciendis consectetur dolorum excepturi quidem sint
+                      dolorem obcaecati exercitationem, pariatur consequuntur
+                      eos praesentium ipsa corrupti harum mollitia quos suscipit
+                      vel molestiae..</small
+                    >
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Last updated 2 mins ago</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services section end  -->
+
+    <!-- about us/video section start -->
+
+    <section class="section-about mt-5" id="about">
+      <div class="overlay"></div>
+      <div
+        class="container text-center p-4"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <div class="row">
+          <div class="col-12">
+            <h1 class="display-5">Watch Our Video</h1>
+            <div class="divider"></div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
+              error temporibus dolores nihil facere eaque quae inventore quos
+              voluptas veritatis, aliquid cupiditate eius, autem eum!
+            </p>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+              numquam sunt at? Vitae officiis dolore illum molestiae tempore
+              voluptate sed?Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Aut, sint.
+            </p>
+          </div>
+        </div>
+        <a href="#" class="d-flex justify-content-center"
+          ><div class="icon-background">
+            <i class="bi bi-play-fill"></i></div
+        ></a>
+      </div>
+    </section>
+    <!-- about us/video section end -->
+
+    <!-- features section start -->
+
+    <section class="section-features" id="features">
+      <div class="container text-center">
+        <div class="row" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-md-6 offset-md-3">
+            <h1 class="display-5 mt-5">Our Features</h1>
+            <div class="divider"></div>
+            <p class>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
+              aperiam odio, quisquam excepturi saepe provident quibusdam
+              dignissimos ab eligendi blanditiis?
+            </p>
+          </div>
+        </div>
+
+        <div class="row gx-5 mt-4" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-md-4">
+            <div class="features-icon"><i class="bi bi-pencil"></i></div>
+
+            <h4 class="fw-bold mt-3 mb-3">Feature title</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              assumenda veniam odio in fuga ducimus ad amet voluptatem libero
+              non.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="features-icon"><i class="bi bi-mortarboard"></i></div>
+
+            <h4 class="fw-bold mt-3 mb-3">Feature title</h4>
+            <p class>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              assumenda veniam odio in fuga ducimus ad amet voluptatem libero
+              non.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="features-icon"><i class="bi bi-tools"></i></div>
+            <h4 class="fw-bold mt-3 mb-3">Feature title</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              assumenda veniam odio in fuga ducimus ad amet voluptatem libero
+              non.
+            </p>
+          </div>
+        </div>
+        <div class="row gx-5 mb-5" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-md-4">
+            <div class="features-icon"><i class="bi bi-paperclip"></i></div>
+
+            <h4 class="fw-bold mt-3 mb-3">Feature title</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              assumenda veniam odio in fuga ducimus ad amet voluptatem libero
+              non.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="features-icon"><i class="bi bi-pin-angle"></i></div>
+
+            <h4 class="fw-bold mt-3 mb-3">Feature title</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              assumenda veniam odio in fuga ducimus ad amet voluptatem libero
+              non.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <div class="features-icon"><i class="bi bi-sd-card"></i></div>
+
+            <h4 class="fw-bold mt-3 mb-3">Feature title</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+              assumenda veniam odio in fuga ducimus ad amet voluptatem libero
+              non.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- features section end -->
+
+    <!-- counter section start -->
+
+    <section class="section-counter p-5">
+      <div class="overlay"></div>
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="row">
+          <div class="col-md-3 text-center">
+            <div class="counter-icon"><i class="bi bi-trophy"></i></div>
+            <h2 class="fw-bold">86</h2>
+            <p>Awards won</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="counter-icon"><i class="bi bi-emoji-smile"></i></div>
+            <h2 class="fw-bold">40M+</h2>
+            <p>Happy clients</p>
+          </div>
+
+          <div class="col-md-3 text-center">
+            <div class="counter-icon"><i class="bi bi-camera"></i></div>
+            <h2 class="fw-bold">140k</h2>
+            <p>Pictures taken</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="counter-icon"><i class="bi bi-brush"></i></div>
+            <h2 class="fw-bold">450K</h2>
+            <p>Webpages designed</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- counter section end -->
+
+    <!-- our team section start -->
+
+    <section id="team" class="section-team">
+      <div class="container text-center">
+        <div class="row" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-md-6 offset-md-3">
+            <h1 class="display-5 mt-5">Our Team</h1>
+            <div class="divider"></div>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
+              aperiam odio, quisquam excepturi saepe provident quibusdam
+              dignissimos ab eligendi blanditiis?
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="row text-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div class="col-md-4 mt-4">
+            <div class="card">
+              <img
+                src="/Images/profile3.avif"
+                class="team-img mt-4 rounded-circle"
+              />
+
+              <div class="card-body">
+                <h4 class="card-title">Adam Jacksson</h4>
+                <small>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
+                  delectus praesentium aliquid iusto totam quo saepe iure
+                  corrupti tempora distinctio Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Saepe Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Aut voluptate voluptatibus
+                  obcaecati necessitatibus dolorum sunt!</small
+                >
+              </div>
+              <div class="mb-4">
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"> <i class="bi bi-facebook"></i></a>
+                <a href="#"> <i class="bi bi-twitter"></i></a>
+                <a href="#"> <i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card">
+              <img
+                src="/Images/profile2.avif"
+                class="team-img mt-4 rounded-circle"
+              />
+
+              <div class="card-body">
+                <h4 class="card-title">John Johnsson</h4>
+                <small>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
+                  delectus praesentium aliquid iusto totam quo saepe iure
+                  corrupti tempora distinctio Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Saepe Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Aut voluptate voluptatibus
+                  obcaecati necessitatibus dolorum sunt!</small
+                >
+              </div>
+              <div class="mb-4">
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"> <i class="bi bi-facebook"></i></a>
+                <a href="#"> <i class="bi bi-twitter"></i></a>
+                <a href="#"> <i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="card">
+              <img
+                src="/Images/profile 1.avif"
+                class="team-img mt-4 rounded-circle"
+              />
+
+              <div class="card-body">
+                <h4 class="card-title">Caroline Hendersson</h4>
+                <small>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint
+                  delectus praesentium aliquid iusto totam quo saepe iure
+                  corrupti tempora distinctio Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Saepe Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Aut voluptate voluptatibus
+                  obcaecati necessitatibus dolorum sunt!</small
+                >
+              </div>
+              <div class="mb-4">
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"> <i class="bi bi-facebook"></i></a>
+                <a href="#"> <i class="bi bi-twitter"></i></a>
+                <a href="#"> <i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our team section end -->
+
+    <!-- blog post section start  -->
+    <section id="blog" class="section-blog">
+      <div class="container text-center">
+        <div class="row mb-4" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-md-6 offset-md-3">
+            <h1 class="display-5 mt-5">Blog Posts</h1>
+            <div class="divider"></div>
+            <p class>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
+              aperiam odio, quisquam excepturi saepe provident quibusdam
+              dignissimos ab eligendi blanditiis?
+            </p>
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="/Images/blogposts1.avif"
+                class="card-img-top"
+                alt="challenge-picture"
+              />
+              <div class="card-body text-start">
+                <small
+                  >Posted in <a href="#">webdesign</a> , 8 Februari 2023</small
+                >
+                <h5 class="fw-bold">I challenge you!</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+                  animi harum ex officiis fuga, debitis, suscipit commodi
+                  accusantium eius velit similique qui non. Molestias quis
+                  suscipit dolore, nisi beatae est.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="/Images/blogposts2.avif"
+                class="card-img-top"
+                alt="The best Javascript library picture"
+              />
+              <div class="card-body text-start">
+                <small
+                  >Posted in <a href="#">webdesign</a> , 12 Januari 2023</small
+                >
+                <h5 class="fw-bold">
+                  The best Javascript library 2023 - React
+                </h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Corporis eum sint natus quo excepturi aperiam tempora vero
+                  perspiciatis. Hic vero, molestiae atque ratione aliquam dolore
+                  tempore fugiat reiciendis architecto nemo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="/Images/blogposts3.avif"
+                class="card-img-top"
+                alt="How to conquer Bootstrap picture"
+              />
+              <div class="card-body text-start">
+                <small
+                  >Posted in <a href="#">webdesign</a> , 18 December 2022</small
+                >
+                <h5 class="fw-bold">How to conquer Bootstrap</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Quidem quod ipsum recusandae amet porro enim cum, earum
+                  exercitationem fuga? Ab qui, in consectetur iure eos voluptate
+                  nihil dignissimos commodi quam.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog post section end  -->
+
+    <!-- contact section start -->
+    <section class="section-contact mt-5" id="contact">
+      <div class="overlay"></div>
+      <div class="container text-center">
+        <div class="row" data-aos="fade-up" data-aos-duration="1000">
+          <div class="col-md-6 offset-md-3">
+            <h1 class="display-5 mt-5">Contact</h1>
+            <div class="divider"></div>
+            <p class>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
+              aperiam odio, quisquam excepturi saepe provident quibusdam
+              dignissimos ab eligendi blanditiis?
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="row mt-4 d-flex justify-content-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div class="col-sm-8 col-10">
+            <form action="">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="First name"
+                aria-label="First name"
+                required
+              />
+
+              <input
+                type="text"
+                class="form-control mt-3"
+                placeholder="Last name"
+                aria-label="Last name"
+                required
+              />
+
+              <input
+                type="text"
+                class="form-control mt-3"
+                placeholder="Subject"
+                aria-label="Subject"
+                required
+              />
+
+              <div>
+                <textarea
+                  class="form-control mt-3"
+                  id="exampleFormControlTextarea1"
+                  rows="6"
+                  placeholder="Message"
+                  required
+                ></textarea>
+              </div>
+              <button class="btn btn--form mt-4">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer section start-->
+
+    <footer class="footer py-2">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <small> Copyright © 2023 Designed By Jakob Malmgren</small>
+          </div>
+          <div class="col-md-6 text-md-end">
+            <div>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-twitter"></i>
+              <i class="bi bi-github"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section end-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>
