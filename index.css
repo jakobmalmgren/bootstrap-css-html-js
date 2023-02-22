@@ -84,12 +84,31 @@ h1 {
   font-family: "Italianno", cursive;
   margin-top: 3em;
 }
-.divider {
-  width: 10em;
-  height: 0.03em;
-  background-color: rgba(0, 0, 0, 0.349);
-  margin: 2em auto;
+.divider_wrapper {
+  margin-bottom: 40px;
 }
+.divider {
+  position: relative;
+  margin-top: 3em;
+  height: 0.05em;
+}
+
+.div-transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 15%;
+  right: 0%;
+  width: 70%;
+  height: 0.05em;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgb(48, 49, 51),
+    transparent
+  );
+}
+
 .card-body {
   box-shadow: 1em 1em 4em rgba(0, 0, 0, 0.15);
 }
